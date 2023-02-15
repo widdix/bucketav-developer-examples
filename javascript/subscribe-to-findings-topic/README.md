@@ -4,7 +4,7 @@ The following example:
 
 1. Subscribes to the *Findings Topic*
 2. Stores scan results in DynamoDB
-3. Queries DynamoDB and extracts the scan result before generating a presigned URL for download.
+3. Queries DynamoDB and extracts the scan result before generating a pre-signed URL for download.
 
 ## Setup instructions
 
@@ -21,7 +21,7 @@ The following example:
     1. Visit the [AWS Lambda Management Console](https://console.aws.amazon.com/lambda/home#/functions)
     2. Navigate to **Functions**.
     3. Click the **Create function** button.
-    4. Double check that **Author from scratch** is selcted.
+    4. Double-check that that **Author from scratch** is selected.
     5. Set **Function name** to `bucketav-scan-results`.
     6. Set **Runtime** to `Node.js 16.x`.
     7. Expand **Change default execution role**.
