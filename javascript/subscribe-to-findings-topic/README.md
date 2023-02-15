@@ -1,4 +1,4 @@
-# Subscribe to Findings Topic and store result in DynamoDB
+# Subscribe to Findings Topic and store results in DynamoDB
 
 The following example:
 
