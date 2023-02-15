@@ -30,7 +30,7 @@ function getSignedUrl (bucket, key, cb) {
   });
 }
 
-getSignedUrl('bucketav-files', 'virus1.txt', (err, signedUrl) => {
+getSignedUrl('your-bucket', 'path/to/file.pdf', (err, signedUrl) => {
   if (err) {
     console.error('something went wrong', err);
   } else {

@@ -25,7 +25,7 @@ def get_signed_url(bucket, key):
     else:
         return None
 
-signed_url = get_signed_url('bucketav-files', 'test.yml')
+signed_url = get_signed_url('your-bucket', 'path/to/file.pdf')
 
 if signed_url is None:
     print('Download not possible (file infected, unscannable, or not yet scanned)')
